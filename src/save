@@ -1,0 +1,28 @@
+/*
+          { Card 2: Services }
+          <div className="bg-gray-200 p-6 rounded-md">
+            <h2 className="text-xl font-bold mb-4">Services</h2>
+            <p>
+              We specialize in building cutting-edge applications, leveraging
+              the power of OpenAI.
+            </p>
+            <p>
+              Our goal is to create innovative and intelligent solutions for our
+              clients.
+            </p>
+          </div>
+
+          { Card 3: Mission }
+          <div className="bg-gray-200 p-6 rounded-md">
+            <h2 className="text-xl font-bold mb-4">Mission</h2>
+            <p>
+              Our mission is to build projects that push the boundaries of
+              technology and creativity.
+            </p>
+            <p>
+              We aim to deliver solutions that make a positive impact on the
+              world.
+            </p>
+          </div>
+        </div>
+  */
