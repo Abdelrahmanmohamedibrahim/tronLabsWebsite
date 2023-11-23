@@ -1,15 +1,16 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
-import tronLabsLogo from "./assets/tronLabsLogo.png";
+
 import AppLayout from "./pages/AppLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Projects from "./pages/Projects";
+import Contactus from "./pages/Contactus";
 
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <AppLayout />,
     children: [
       {
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: "/tronLabs/signup",
         element: <Signup />,
+      },
+      {
+        path: "/tronLabs/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/tronLabs/contactus",
+        element: <Contactus />,
       },
     ],
   },

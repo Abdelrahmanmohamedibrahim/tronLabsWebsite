@@ -18,8 +18,12 @@ function Navbar() {
           <Link to="/tronLabs/about" className="hover:text-gray-400 text-xl">
             About
           </Link>
-          <Link className="hover:text-gray-400 text-xl">Projects</Link>
-          <Link className="hover:text-gray-400">Contact Us</Link>
+          <Link to="/tronLabs/projects" className="hover:text-gray-400 text-xl">
+            Projects
+          </Link>
+          <Link to="/tronLabs/contactus" className="hover:text-gray-400">
+            Contact Us
+          </Link>
         </div>
 
         <button
@@ -30,10 +34,10 @@ function Navbar() {
         </button>
 
         <div className="hidden lg:flex space-x-4 text-xl">
-          <Link to={"/tronLabs/login"} className="hover:text-gray-400">
+          <Link to="/tronLabs/login" className="hover:text-gray-400">
             Login
           </Link>
-          <Link to={"/tronLabs/signup"} className="hover:text-gray-400">
+          <Link to="/tronLabs/signup" className="hover:text-gray-400">
             Signup
           </Link>
         </div>
@@ -41,19 +45,22 @@ function Navbar() {
 
       {menuVisible && (
         <div className="lg:hidden">
-          <Link to={"/tronLabs/about"} className="block p-4 hover:bg-gray-700">
+          <Link to="/tronLabs/about" className="block p-4 hover:bg-gray-700">
             About
           </Link>
-          <Link to={"/tronLabs/about"} className="block p-4 hover:bg-gray-700">
+          <Link to="/tronLabs/about" className="block p-4 hover:bg-gray-700">
             Projects
           </Link>
-          <Link to={"/tronLabs/about"} className="block p-4 hover:bg-gray-700">
+          <Link
+            to="/tronLabs/contactus"
+            className="block p-4 hover:bg-gray-700"
+          >
             Contact Us
           </Link>
-          <Link to={"/tronLabs/login"} className="block p-4 hover:bg-gray-700">
+          <Link to="/tronLabs/login" className="block p-4 hover:bg-gray-700">
             Login
           </Link>
-          <Link to={"/tronLabs/sigunp"} className="block p-4 hover:bg-gray-700">
+          <Link to="/tronLabs/sigunp" className="block p-4 hover:bg-gray-700">
             Signup
           </Link>
         </div>

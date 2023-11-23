@@ -1,4 +1,3 @@
-import tronLabsLogo from "../assets/tronLabsLogo.png";
 import HomeCards from "./HomeCards";
 import MainHome from "./MainHome";
 import Navbar from "./Navbar";
